@@ -1,6 +1,6 @@
 /*
 ======================================================================
-    ZPAUSE T4 v1.6  --  Synced co-op pause for World at War Zombies
+    ZPAUSE T4 v1.7  --  Synced co-op pause for World at War Zombies
     Plutonium T4
 
     by Xep
@@ -907,8 +907,7 @@ zp_cfg_float( dvar, def )
     control character in front of it, unlike T6's.
 
     Nothing in the stock dump listens for the notify, which is why this
-    port shipped documented as button-only. See
-    docs/handoff-chat-commands.md.
+    port shipped documented as button-only.
    ================================================================== */
 
 zp_chat_listener()
@@ -5413,7 +5412,7 @@ zp_api_request( player, what )
 zp_version()
 {
     // ZP_VERSION_BEGIN
-    return "1.6";
+    return "1.7";
     // ZP_VERSION_END
 }
 

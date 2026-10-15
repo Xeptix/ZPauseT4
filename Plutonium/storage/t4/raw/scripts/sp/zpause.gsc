@@ -1,6 +1,6 @@
 /*
 ======================================================================
-    ZPAUSE T4 v1.7  --  Synced co-op pause for World at War Zombies
+    ZPAUSE T4 v1.8  --  Synced co-op pause for World at War Zombies
     Plutonium T4
 
     by Xep
@@ -5412,7 +5412,7 @@ zp_api_request( player, what )
 zp_version()
 {
     // ZP_VERSION_BEGIN
-    return "1.7";
+    return "1.8";
     // ZP_VERSION_END
 }
 
